@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.user1 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(33, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 36, 0, 1) 0%,
+    rgba(1, 1, 1, 1) 50%,
+    rgba(18, 93, 108, 1) 100%
+  );
+}
+.user2 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(33, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 93, 108, 1) 0%,
+    rgba(1, 1, 1, 1) 50%,
+    rgba(33, 36, 0, 1) 100%
+  );
+}
+.play-grid {
+  padding: 50px 0;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  height: 40px;
+  width: 40px;
+}
+.top {
+  border-top: none;
+}
+.side-left {
+  border-left: none;
+}
+.side-right {
+  border-right: none;
+}
+.bottom {
+  border-bottom: none;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: darkturquoise;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
